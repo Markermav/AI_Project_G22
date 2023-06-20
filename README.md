@@ -61,6 +61,18 @@ The model is trained again with the best hyperparameters.
 The accuracy and evaluation metrics (precision, recall, and F1-score) are calculated and printed.
 A bar plot is created to visualize the evaluation metrics.
 
+HOG Feature Extraction:
+
+CIFAR-10 images are loaded and displayed.
+Class labels of the CIFAR-10 dataset are printed.
+Outliers in the dataset are detected using the Local Outlier Factor algorithm.
+Images are converted to grayscale.
+Histogram of Oriented Gradients (HOG) features are extracted from the grayscale images.
+A decision tree classifier is trained using the HOG features.
+The model's accuracy, recall, precision, and F1 score are evaluated.
+A confusion matrix is plotted to visualize the model's performance.
+The decision tree is visualized.
+
 ### Decision Tree for semi supervised learning classification
 
 Decision Tree Classifier:
