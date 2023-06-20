@@ -117,5 +117,8 @@ The accuracy of the model on the test set is calculated and printed.
 
 The confusion matrix is computed and displayed.
 
+## How to run:
+Google Colab has been used to run the project.
+
 ## Dataset Available at: 
 https://www.cs.toronto.edu/~kriz/cifar.html
