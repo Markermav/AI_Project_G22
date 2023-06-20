@@ -87,3 +87,32 @@ The best model is selected based on the highest accuracy on the validation set.
 The best model is evaluated on the labeled data and the test set.
 The accuracy, precision, recall, and F1-score are calculated and printed.
 
+### CNN for supervised learning
+
+The necessary libraries and modules have been imported, including PyTorch, torchvision, NumPy, Matplotlib, and evaluation metrics.
+
+The device configuration has been set to use the GPU if available; otherwise, it falls back to using the CPU.
+
+Data transformations have been defined for preprocessing the CIFAR-10 dataset, and the dataset has been loaded using torchvision.datasets.CIFAR10. Data loaders for the training and test sets have been created accordingly.
+
+The CNN model has been defined using the ResNet-18 architecture pretrained on ImageNet. The last fully connected layer has been replaced with a new linear layer to output 10 classes for the CIFAR-10 dataset.
+
+The loss function (CrossEntropyLoss) and optimizer (SGD) have been defined to train the model.
+
+The code offers the option to either train the model or load pre-trained parameters based on the value of train_model. If training is chosen, the model is trained for 10 epochs using the training set and the optimizer. The training loss is printed and saved.
+
+If train_model is set to False, the pre-trained model is loaded from the saved parameters.
+
+The model is evaluated on the test set. Predicted labels and true labels are collected to calculate evaluation metrics.
+
+The embeddings are extracted from the fully connected layer of the model.
+
+t-SNE (t-Distributed Stochastic Neighbor Embedding) is applied to visualize the embeddings in a 2D space.
+
+The t-SNE visualization is plotted, where each point represents an image and is colored based on its true label.
+
+Precision, recall, and F1 score are calculated and printed as evaluation metrics.
+
+The accuracy of the model on the test set is calculated and printed.
+
+The confusion matrix is computed and displayed.
