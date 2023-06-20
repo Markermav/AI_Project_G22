@@ -5,7 +5,7 @@ COMP-6721-AI , A comparative analysis of image classification using CIFAR10 Data
 
 This repository contains source code for Naive Bayes for supervised learning classification, Decision Tree for both supervised and semi supervised learning classification, CNN for supervised learning classification. The Cifar 10 Dataset was used for the procedure.
 
-#### Naive Bayes:
+### Naive Bayes:
 
 Data Loading: The CIFAR-10 dataset is loaded using scikit-learn's fetch_openml function. The dataset is split into input features (X) and target labels (y).
 
