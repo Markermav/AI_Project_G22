@@ -116,3 +116,6 @@ Precision, recall, and F1 score are calculated and printed as evaluation metrics
 The accuracy of the model on the test set is calculated and printed.
 
 The confusion matrix is computed and displayed.
+
+## Dataset Available at: 
+https://www.cs.toronto.edu/~kriz/cifar.html
