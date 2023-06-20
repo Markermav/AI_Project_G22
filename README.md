@@ -31,24 +31,29 @@ Data Loading and Preprocessing:
 
 The CIFAR-10 dataset is loaded using the torchvision library and transformed into tensors.
 The input features and target labels are converted to NumPy arrays and reshaped into a 2D array.
+
 Data Splitting:
 
 The dataset is split into training and testing sets using the train_test_split function from scikit-learn.
 80% of the data is used for training, and 20% is used for testing.
+
 Decision Tree Classifier:
 
 A decision tree classifier is created using the DecisionTreeClassifier class from scikit-learn.
 The classifier is trained on the training set using the fit method.
+
 Model Evaluation:
 
 The accuracy of the model is evaluated on both the training and test sets using the score method.
 The confusion matrix is computed using the confusion_matrix function from scikit-learn.
 The accuracy, precision, recall, and F1-score are calculated and printed.
 The confusion matrix is visualized using a heatmap.
+
 Decision Tree Visualization:
 
 The decision tree is visualized using the export_graphviz function from scikit-learn and the graphviz library.
 The resulting decision tree is saved as a PNG image.
+
 Hyperparameter Tuning:
 
 Grid search is performed using the GridSearchCV class from scikit-learn to find the best hyperparameters for the decision tree.
@@ -65,6 +70,7 @@ The labeled data is split into training and validation sets.
 A decision tree classifier is created using the DecisionTreeClassifier class from scikit-learn.
 The classifier is trained on the labeled training data and evaluated on the validation set.
 The accuracy scores are calculated and printed.
+
 Semi-Supervised Learning:
 
 The labeled and unlabeled instances are split using train_test_split, and the sizes are adjusted to be equal.
@@ -72,6 +78,7 @@ The labeled data is split into training and validation sets.
 A decision tree classifier is trained on the combined labeled and unlabeled data.
 The model is evaluated on the test set, which consists of a portion of the combined data.
 The accuracy scores are calculated and printed.
+
 Random Forest Classifier:
 
 The CIFAR-10 dataset is loaded and split into training set, validation set, and test set.
