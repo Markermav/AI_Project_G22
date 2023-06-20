@@ -121,4 +121,4 @@ The confusion matrix is computed and displayed.
 Google Colab has been used to run the project. All the necessary libraries will be automatically imported and all the training and testing data will be automatically created.
 
 ## Dataset Available at: 
-[https://www.cs.toronto.edu/~kriz/cifar.html](https://pytorch.org/vision/stable/generated/torchvision.datasets.CIFAR10.html#torchvision.datasets.CIFAR10)https://pytorch.org/vision/stable/generated/torchvision.datasets.CIFAR10.html#torchvision.datasets.CIFAR10
+https://pytorch.org/vision/stable/generated/torchvision.datasets.CIFAR10.html#torchvision.datasets.CIFAR10
