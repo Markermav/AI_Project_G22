@@ -1,0 +1,7 @@
+Training times for the models implemented: 
+
+Decesion Tree (Semi-Supervised) : 42 sec 
+
+Decesion Tree (Supervised) : 34 sec 
+
+CNN : 1h 40 min 37 sec
